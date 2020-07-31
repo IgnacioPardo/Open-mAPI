@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from provincia import Provincia
 class Argentina():
 
+	#Provincias de Argentina y sus Keys dentro de la API
 	provincias = {
 						'BA_C': None,
 						'BA_P': None,
@@ -40,36 +41,44 @@ class Argentina():
 			'activos': None,
 		}
 
+	#Devuelve objeto Provincia de la Provincia especificada
 	def getProvincia(self, key):
 		return self.provincias[key]
 
+	#Devuelve el nombre de la Provincia especificada
 	def getNombreProvincia(self, key):
 		return str(self.getProvincia(key))
 
+	#Actualiza la informacion de todas las provincias
 	def loadAllProvincias(self):
 		for prov in self.provincias.values():
 			prov.loadAllData()
 		return self.provincias
 
+	#Actualiza la informacion de la Provincia especificada
 	def reloadProvincia(self, key):
 		self.getProvincia(key).loadAllData()
 		return self.getProvincia(key)
 
+	#Devuelve todas los casos de la Provincia especificada
 	def getCasosProvincia(self, key, info):
 		if not self.provincias[key]:
 			self.provincias[key] = Provincia(key)
 			self.loadProvincias(key)
 		return self.getProvincia(key).getCasos(info)
 
+	#Devuelve los casos en una Fehca de la Provincia especificada
 	def getCasosProvinciaEnFecha(self, key, fecha):
 		if not self.provincias[key]:
 			self.provincias[key] = Provincia(key)
 			self.loadProvincias(key)
 		return self.getProvincia(key).getFecha(fecha)
 
+	#Devuelve el historial por fecha de la Provincia especificada
 	def getHistorialCasosProvincia(self, key):
 		return self.getProvincia(key).getHistorial()
-
+	
+	#Devuelve el Total de casos en el Pais al dia de hoy.
 	def getTotal(self):
 		url = "https://en.wikipedia.org/wiki/Template:COVID-19_pandemic_data"
 
