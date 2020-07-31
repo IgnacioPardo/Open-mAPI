@@ -64,7 +64,7 @@ class Fechas():
 		prov_indice = self.provs.index(self.key)
 		return self.resultados[fecha_indice][prov_indice]
 		
-	def getAllHistory(self):
+	def getHistorial(self):
 
 		if len(self.resultados) == 0:
 			self.load()

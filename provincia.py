@@ -92,7 +92,7 @@ class Provincia(Fechas):
 	def __str__(self):
 		return self.provincia
 
-	def getInfo(self, info):
+	def getCasos(self, info):
 
 		if len(self.data.keys()) == 0:
 			self.loadAllData()
