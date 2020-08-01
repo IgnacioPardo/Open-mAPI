@@ -1,7 +1,7 @@
 # Open mAPI (v2.0)
 API COVID 19 por Provincias Argentinas
 
-Ejemplos de uso en main.py
+Ejemplos de uso en example.py
 
 mAPI Live hosteada en www.mapi.live/api
 Documentacion de mAPI Live en Postman: https://documenter.getpostman.com/view/4501185/T1DsAbwg?version=latestw
