@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from open_mapi.provincia import Provincia
+from Open_mAPI.provincia import Provincia
 
 class Registros():
 
