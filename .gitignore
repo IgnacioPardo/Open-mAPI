@@ -5,3 +5,5 @@ __pycache__/
 *$py.class
 poetry.lock
 pyproject.toml
+.replit
+main.py

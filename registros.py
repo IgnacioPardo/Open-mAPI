@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from provincia import Provincia
-class Argentina():
+
+class Registros():
 
 	#Provincias de Argentina y sus Keys dentro de la API
 	provincias = {
