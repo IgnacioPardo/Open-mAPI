@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from fechas import Fechas
+from open_mapi.fechas import Fechas
 
 class Provincia(Fechas):
 

@@ -1,4 +1,4 @@
-from registros import Registros
+from open_mapi.registros import Registros
 
 data = Registros()
 
