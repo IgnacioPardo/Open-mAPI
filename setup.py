@@ -1,19 +1,16 @@
 from setuptools import setup, find_packages
 import pathlib
 
-here = pathlib.Path(__file__).parent.parent.resolve()
-
-long_description = (here / 'README.md').read_text(encoding='utf-8')
-
 setup(
-    name='mAPI',
-    version='2.0.0',
+    name='openmapi',
+    packages = ['openmapi'], 
+    version='3.0.0',
+    license='MIT', 
     description='API COVID 19 por Provincias Argentinas',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
     url='https://github.com/IgnacioPardo/Open-mAPI',
+    download_url = 'https://github.com/IgnacioPardo/Open-mAPI/archive/3.0.tar.gz',
     author='Ignacio Pardo, Lucia Parrondo',
-    author_email='ignacio.pardo@ort.edu.ar',
+    author_email='ignacio.pardo@ort.edu.ar, lucia.parrondo@ort.edu.ar',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
@@ -30,8 +27,6 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     keywords='mAPI, Open_mAPI, covid19, Argentina',
-    package_dir={'': 'mAPI'},
-    packages=find_packages(where='mAPI'),
     python_requires='>=3.5, <4',
     install_requires=['bs4~=0.0.1'],
     project_urls={
