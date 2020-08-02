@@ -1,4 +1,4 @@
-# Open mAPI (v1.0)
+# Open mAPI (v1.2.0)
 API COVID 19 por Provincias Argentinas
 
 mAPI Live hosted: https://www.mapi.live/
@@ -8,7 +8,7 @@ Documentacion de mAPI Live en Postman: https://documenter.getpostman.com/view/45
 Ejemplo 1:
 
 ```
-  from mAPI.registros import Registros
+  from openmapi.registros import Registros
 
   data = Registros()
 
@@ -21,7 +21,7 @@ Ejemplo 1:
 Ejemplo 2
 
 ```
-  from mAPI.registros import Registros
+  from openmapi.registros import Registros
 
   data = Registros()
 
