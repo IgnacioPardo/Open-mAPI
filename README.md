@@ -75,11 +75,6 @@ Ejemplo 2
   print('Provincia con mas casos ' + info + " es " + mas_casos[0] + ' con ' + mas_casos[1] + ' casos.')
 ```
 
-### Todos
-
- - Add examples
- - Add Night Mode
-
 ### Development
 
 ¿Te gustaria contribuir? Genial!
