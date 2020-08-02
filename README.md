@@ -20,7 +20,7 @@ Open mAPI brinda registros actualizados sobr el estado de la pandemia actual de 
 
 > El objetivo de mAPI es poder fomentar el 
 > desarrollo de proyectos educativos y sociales
-> para apoyar a la superacion y el entendimiento
+> para apoyar al estudio y el entendimiento
 > de la Pandemia de COVID19 en Argentina.
 
 ### mAPI Live
