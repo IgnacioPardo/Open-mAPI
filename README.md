@@ -90,10 +90,6 @@ lucia.parrondo@ort.edu.ar
 MIT
 
 
-**Free Software, Hell Yeah!**
-
-[//]:
-
    [dill]: <https://github.com/IgnacioPardo/Open-mAPI/>
    [git-repo-url]: <https://github.com/IgnacioPardo/Open-mAPI.git>
    [markdown-it]: <https://github.com/markdown-it/markdown-it>
