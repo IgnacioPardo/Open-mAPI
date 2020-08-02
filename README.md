@@ -1,4 +1,4 @@
-# Open mAPI (v2.0)
+# Open mAPI (v3.0)
 API COVID 19 por Provincias Argentinas
 
 mAPI Live hosted: https://www.mapi.live/
