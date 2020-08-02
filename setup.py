@@ -4,7 +4,7 @@ import pathlib
 setup(
     name='openmapi',
     packages = ['openmapi'], 
-    version='3.0.0',
+    version='1.0.0',
     license='MIT', 
     description='API COVID 19 por Provincias Argentinas',
     url='https://github.com/IgnacioPardo/Open-mAPI',
