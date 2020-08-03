@@ -4,24 +4,24 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/IgnacioPardo/Open-mAPI)
 
-Open mAPI brinda registros actualizados sobr el estado de la pandemia actual de COVID19 en Argentina.
+Open mAPI brinda registros actualizados sobre el estado de la pandemia actual de COVID-19 en Argentina.
 
   - Casos por Provincias
-  - Distincion entre casos:
+  - Distinción entre casos:
     - Infectados
     - Recuperados
     - Fallecidos
-  - Informacion segura y confiable
+  - Información segura y confiable
 
 ### Nuevas Features!
 
-  - Historial de Registros en el pais, desde el 3 de Marzo de 2020 hasta la fecha.
+  - Historial de registros en el pais, desde el 3 de Marzo de 2020 hasta la fecha.
   - Casos totales
 
 > El objetivo de mAPI es poder fomentar el 
 > desarrollo de proyectos educativos y sociales
 > para apoyar al estudio y el entendimiento
-> de la Pandemia de COVID19 en Argentina.
+> de la pandemia de COVID-19 en Argentina.
 
 ### mAPI Live
 [mAPI Live] se encuentra hosted para uso gratis e ilimitado.
@@ -30,7 +30,7 @@ La [Documentacion] de mAPI Live se encuentra en en Postman
 
 ### Tech
 
-Open mAPI utiliza la menor cantidad de librerias para que sea de facil implementacion. Para poder alcanzarlo, utilizamos Beautiful Soup.
+Open mAPI utiliza la menor cantidad de librerías para que sea de facil implementación. Para poder alcanzarlo, utilizamos Beautiful Soup.
 
 * [bs4] - Beautiful Soup es una biblioteca que facilita la búsqueda de información en las páginas web. Se sitúa encima de un analizador HTML o XML, proporcionando expresiones de Python para iterar, buscar y modificar el árbol de análisis.
 
@@ -77,12 +77,11 @@ Ejemplo 2
 
 ### Development
 
-¿Te gustaria contribuir? Genial!
+¿Te gustaria contribuir? ¡Genial!
 
-Nos encantaria recibir el apoyo de cualquiera dispuesto a ofrecerlo.
+Nos encanta recibir el apoyo de cualquiera dispuesto a ofrecerlo.
 Envianos un mail a
-ignacio.pardo@ort.edu.ar
-lucia.parrondo@ort.edu.ar
+info.creativityhub@gmail.com
 
 ### License
 ----
