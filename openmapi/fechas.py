@@ -41,16 +41,18 @@ class Fechas():
 			if 'Date' not in row:
 				if 'Total' not in row:
 					if 'Cml' not in row:
-						csvline = []
-						for elem in row:
-							if '(' in elem:
-								if ' ' in elem:
-									elem = elem.split(' ')[0]
-								else:	
-									elem = elem.split('(')[0]
-							csvline.append(elem)
-						self.fechas.append(csvline[0])
-						self.resultados.append(csvline)
+						if 'Aut. city' not in row:
+							if 'Notes:The' not in row:
+								csvline = []
+								for elem in row:
+									if '(' in elem:
+										if ' ' in elem:
+											elem = elem.split(' ')[0]
+										else:	
+											elem = elem.split('(')[0]
+									csvline.append(elem)
+								self.fechas.append(csvline[0])
+								self.resultados.append(csvline)
 		self.fechas = self.fechas[:-2]
 		self.resultados = self.resultados[:-2]
 
@@ -66,9 +68,8 @@ class Fechas():
 		
 	def getHistorial(self):
 
-		if len(self.resultados) == 0:
-			self.load()
+		self.load()
 		
 		prov_indice = self.provs.index(self.key)
 
-		return [[fecha[0], fecha[prov_indice]] for fecha in self.resultados[1:]]
+		return [[fecha[0], fecha[prov_indice]] for fecha in self.resultados[1:] if len(fecha) > 1]
