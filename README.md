@@ -11,7 +11,6 @@ Open mAPI brinda registros actualizados sobre el estado de la pandemia actual de
     - Infectados
     - Recuperados
     - Fallecidos
-  - Información segura y confiable
 
 ### Nuevas Features!
 
