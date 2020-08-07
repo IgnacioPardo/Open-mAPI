@@ -4,13 +4,13 @@ import pathlib
 setup(
     name='openmapi',
     packages = ['openmapi'], 
-    version='1.3.0',
+    version='1.4.0',
     license='MIT', 
     description='API COVID 19 por Provincias Argentinas',
     url='https://github.com/Creativity-Hub/Open-mAPI',
-    download_url = 'https://github.com/Creativity-Hub/Open-mAPI/archive/1.3.0.tar.gz',
-    author='Ignacio Pardo, Lucia Parrondo',
-    author_email='ignacio.pardo@ort.edu.ar, lucia.parrondo@ort.edu.ar',
+    download_url = 'https://github.com/Creativity-Hub/Open-mAPI/archive/1.4.0.tar.gz',
+    author='Creativity Hub',
+    author_email='info.creativityhub@gmail.com',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
