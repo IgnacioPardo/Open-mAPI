@@ -1,5 +1,7 @@
 # Open mAPI
 
+[Docs](https://www.mapi.live/openmapi/docs)
+
 [![N|Solid](https://www.mapi.live/static/poweredby.png)](https://www.mapi.live)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/IgnacioPardo/Open-mAPI)
