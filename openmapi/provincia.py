@@ -5,8 +5,8 @@ from openmapi.fechas import Fechas
 class Provincia(Fechas):
 
 	apiEquiv = {
-		'BA_C': 'Buenos-Aires-Autonomous-City',
-		'BA_P': 'Buenos-Aires-Province',
+		'BA_C': 'Buenos-Aires-C',
+		'BA_P': 'Buenos-Aires-P',
 		'CA': 'Catamarca',
 		'CH': 'Chaco',
 		'CB': 'Chubut',
@@ -75,7 +75,7 @@ class Provincia(Fechas):
 			for tr in table.find_all('tr'):
 				row = [''.join(cell.stripped_strings) for cell in tr.find_all(['td', 'th'])]
 				resultados.append(row[1:])
-		resultados = resultados[1:]
+		#resultados = resultados[1:]
 
 		for row in resultados:
 			provKey = row[0].replace(' ', '-').replace('(', '').replace(')', '')
