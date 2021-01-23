@@ -25,7 +25,7 @@ Open mAPI brinda registros actualizados sobre el estado de la pandemia actual de
 > de la pandemia de COVID-19 en Argentina.
 
 ### mAPI Live
-[mAPI Live] se encuentra hosted para uso gratis e ilimitado.
+[mAPI Live] se encuentra hosted para uso gratuito e ilimitado.
 
 La [Documentacion] de mAPI Live se encuentra en en Postman
 
